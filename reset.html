@@ -4,21 +4,16 @@
     <title>Reset Password</title>
 </head>
 <body>
-
     <h2>Reset Password</h2>
 
-    <form>
+    <form action="index.html">
         <label>New Password:</label><br>
-        <input type="password" name="new-password"><br><br>
+        <input type="password" required><br><br>
 
         <label>Confirm Password:</label><br>
-        <input type="password" name="confirm-password"><br><br>
+        <input type="password" required><br><br>
 
-        <!-- Redirect to login page -->
-        <a href="index.html">
-            <button type="button">Update Password</button>
-        </a>
+        <button type="submit">Update Password</button>
     </form>
-
 </body>
 </html>
